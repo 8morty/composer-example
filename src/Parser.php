@@ -4,7 +4,7 @@ namespace eightmorty\parser;
 
 class Parser implements ParserInterface {
 
-    public function process(string $url, string $tag): array {
+    public function process(string $tag, string $url): array {
 
         //  Массив для записи результатов
         $tagsText = array();
