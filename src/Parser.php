@@ -23,5 +23,8 @@ class Parser implements ParserInterface {
         return $tagsText;
     }
 
+    public function test() {
+        //  feature
+    }
 }
 
